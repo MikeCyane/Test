@@ -1,0 +1,48 @@
+Checking: Clinical engineering I.pdf
+Annotations: []
+Sample Normal Text:
+Text: CamScanner | Font: Times-Roman | Color: 0x0 | Flags: 4
+
+Special Text found (first 10):
+Text: CamScanner | Font: Times-Roman | Color: 0x0 | Flags: 4
+
+--------------------------------------------------
+Checking: Medical equipment Measurement and Instrumentation.pdf
+Annotations: []
+Sample Normal Text:
+Text: Medical  Measurement and Instrumentation | Font: TimesNewRomanPS-ItalicMT | Color: 0x0 | Flags: 6
+Text: 1 | Font: Calibri | Color: 0xffffff | Flags: 0
+Text:  | Font: Calibri | Color: 0x0 | Flags: 0
+
+Special Text found (first 10):
+Text: Medical  Measurement and Instrumentation | Font: TimesNewRomanPS-ItalicMT | Color: 0x0 | Flags: 6
+Text: 1 | Font: Calibri | Color: 0xffffff | Flags: 0
+Text: Medical equipment Measurement and Instrumentation | Font: TimesNewRomanPS-BoldMT | Color: 0x0 | Flags: 20
+Text: UNIT-I | Font: TimesNewRomanPS-BoldMT | Color: 0x0 | Flags: 20
+Text: Basic concepts of Medical Instrumentation : | Font: TimesNewRomanPS-BoldMT | Color: 0x0 | Flags: 20
+Text: anatomy and physiology –Physiological system of the body-the | Font: TimesNewRomanPSMT | Color: 0x0 | Flags: 4
+Text: cardiovascular System-The respiratory System-The nervous system- Others systems- sources of biomedical | Font: TimesNewRomanPSMT | Color: 0x0 | Flags: 4
+Text: signal-basic medical instrumentation-performance required for medical instrumentation system-intelligent | Font: TimesNewRomanPSMT | Color: 0x0 | Flags: 4
+Text: medical instrumentation system-general constraint in design of medical instrumentation system -classification of | Font: TimesNewRomanPSMT | Color: 0x0 | Flags: 4
+Text: medical instrument-regulation of medical device- | Font: TimesNewRomanPSMT | Color: 0x0 | Flags: 4
+
+--------------------------------------------------
+Checking: RAHPC EXAMIN PREP.pdf
+Annotations: []
+Sample Normal Text:
+Text: EXAM PREPARATION | Font: Calibri-Bold | Color: 0x0 | Flags: 16
+Text:  | Font: Calibri | Color: 0x0 | Flags: 0
+Text: 1. | Font: Calibri | Color: 0x0 | Flags: 0
+
+Special Text found (first 10):
+Text: EXAM PREPARATION | Font: Calibri-Bold | Color: 0x0 | Flags: 16
+Text: Heart of the heart is: | Font: Calibri-Bold | Color: 0x0 | Flags: 16
+Text: a) SA Node | Font: Calibri | Color: 0xff0000 | Flags: 0
+Text: Which of the following has the thickest wall? | Font: Calibri-Bold | Color: 0x3a3a3a | Flags: 16
+Text:  | Font: Calibri | Color: 0x3a3a3a | Flags: 0
+Text: a) Right ventricle | Font: Calibri | Color: 0x3a3a3a | Flags: 0
+Text: b) Left ventricle | Font: Calibri-Bold | Color: 0xff0000 | Flags: 16
+Text:  | Font: Calibri | Color: 0x3a3a3a | Flags: 0
+Text: c) Right atrium | Font: Calibri | Color: 0x3a3a3a | Flags: 0
+Text: d) Left atrium | Font: Calibri | Color: 0x3a3a3a | Flags: 0
+

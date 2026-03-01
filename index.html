@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de licencia</title>
+    <meta name="description" content="A dynamic and interactive quiz application for exam preparation.">
+    <!-- Google Fonts for modern typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app-container">
+        <header>
+            <div class="header-left">
+                <button id="home-btn" class="icon-btn" title="Back to Home">🏠</button>
+                <h1>RAPHC License Quiz</h1>
+            </div>
+            <div class="score-container">
+                <span class="score-label">Score</span>
+                <span id="score" class="score-value">0</span>
+            </div>
+        </header>
+
+        <main id="quiz-container">
+            <!-- Loading State -->
+            <div id="loading" class="state-container">
+                <div class="spinner"></div>
+                <p>Loading questions...</p>
+            </div>
+
+            <!-- Start State -->
+            <div id="start-screen" class="state-container hidden">
+                <div class="welcome-icon">🎓</div>
+                <h2>Good To Go?</h2>
+                <p id="total-questions-info">Questions from Ibicupuri I've got.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; margin-top: 1rem;">
+                    <button id="theory-btn" class="primary-btn">Theory Exam</button>
+                    <button id="practical-btn" class="primary-btn" style="background-color: #64748b;">Practical
+                        Exam</button>
+                </div>
+            </div>
+
+            <!-- Quiz State -->
+            <div id="question-screen" class="hidden">
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar"></div>
+                </div>
+
+                <div class="question-header">
+                    <span id="question-counter" class="question-pill">Question 1/10</span>
+                    <span id="source-badge" class="source-badge">Source: pdf</span>
+                </div>
+
+                <div class="question-card">
+                    <h2 id="question-text">What is the capital of France?</h2>
+                </div>
+
+                <div id="options-container" class="options-grid">
+                    <!-- Options injected here via JS -->
+                </div>
+
+                <div class="actions-container" style="display: flex; gap: 1rem; justify-content: center;">
+                    <button id="back-btn" class="primary-btn hidden" style="background-color: #64748b;">&larr;
+                        Back</button>
+                    <button id="skip-btn" class="primary-btn">Skip</button>
+                    <button id="next-btn" class="primary-btn hidden">Next Question &rarr;</button>
+                </div>
+            </div>
+
+            <!-- End State -->
+            <div id="end-screen" class="state-container hidden">
+                <div class="trophy-icon">🏆</div>
+                <h2>Quiz Complete!</h2>
+                <div class="final-score-box">
+                    <span id="final-score" class="final-score">0/0</span>
+                    <span id="percentage-score" class="percentage-score">0% Accuracy</span>
+                    <p>Correct Answers</p>
+                </div>
+                <button id="restart-btn" class="primary-btn">Try Again</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="questions_data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
