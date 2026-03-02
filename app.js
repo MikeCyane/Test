@@ -88,6 +88,12 @@ function startQuiz(type) {
       : () => true;
 
   STATE.questions = shuffle([...STATE.allLoadedQuestions].filter(filterFn));
+
+  if (STATE.questions.length === 0) {
+    alert('No questions found for this exam type. Please re-run the extraction script.');
+    updateUI.screen('start');
+    return;
+  }
   showQuestion();
 }
 
